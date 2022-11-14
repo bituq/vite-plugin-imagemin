@@ -5,18 +5,6 @@
   "description": "A vite plugin for compressing image assets",
   "license": "MIT",
   "author": "Vben",
-  "scripts": {
-    "dev:play": "pnpm run dev --filter playground-basic",
-    "build:play": "pnpm run build --filter playground-basic",
-    "stub": "pnpm run prepack --filter ./packages -- --stub",
-    "postinstall": "pnpm run stub",
-    "log": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "lint:pretty": "pretty-quick --staged",
-    "lint:eslint": "eslint \"packages/**/*.{ts,tsx}\" --fix",
-    "prepare": "husky install",
-    "preinstall": "npx only-allow pnpm",
-    "test": "vitest"
-  },
   "keywords": [
     "vite",
     "vite-plugin",
